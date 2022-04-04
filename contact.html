@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>My Contact Details</h2>
+    <p>My fictional address</p>
+    <p>89725261166161</p>
+    <p>1234@gmail.com</p>
+    <hr>
+    <!--1.When you press submit, post will transfer what user enters into email,mention
+    encoding type ie data in our form is plain text-->
+    <!--When you submit after giving names, you will receive that info on mail-->
+    <form action="mailto:avantikasharma151997@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your Name:</label>
+        <input id="name" name="yourName" type="text">
+        <br>
+        <label for="">Your Email:</label>
+        <input type="email" name="yourEmail">
+        <br>
+        <label for="">Your Messsage:</label><br>
+        <textarea name="" id="" cols="30" rows="10" name="yourMessage"></textarea><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
